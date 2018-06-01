@@ -1,0 +1,177 @@
+body {
+  background-color: #8e8e8e;
+  background: url(http://i66.tinypic.com/eq2xrb.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Orbitron", sans-serif;
+}
+
+#calcolatrice {
+  height: 490px;
+  width: 300px;
+  margin: 190px auto;
+  background-color: #d8d8d8;
+  border: 2px solid #908b85;
+  border-radius: 20px;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+h4,
+h6 {
+  text-align: center;
+  margin: 3% auto;
+}
+
+#display {
+  text-align: center;
+  height: 80px;
+  width: 250px;
+  margin: 5% auto 0;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  background-color: #c3c2ab;
+  box-shadow: inset 1px 0 7px 1px #515151;
+}
+
+#display #totale {
+  text-align: right;
+  margin: 2px 12px 0;
+  font-size: 30px;
+}
+
+#display #parziale {
+  text-align: right;
+  margin: 0 12px;
+  font-size: 15px;
+}
+
+#firstLine {
+  display: inline-block;
+  margin: 15px 25px 10px;
+}
+
+#secondLine {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+#thirdLine {
+  display: inline-block;
+  margin: 10px 25px;
+}
+
+#fourthLine {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+#fifthLine {
+  display: inline-block;
+  margin: 10px 25px 0;
+}
+
+button {
+  margin: 0 3px;
+  width: 52px;
+  height: 50px;
+  color: white;
+  background-color: #666666;
+  border: 1px solid #b4b39d;
+  border-radius: 10px;
+  font-family: "Orbitron", sans-serif;
+  box-shadow: 0px 3px 0px 0px #8e8e8e, inset -1px -3px 10px 1px #515151;
+}
+
+button:hover {
+  background-color: #595959;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: translate(0px, 1px);
+  box-shadow: none;
+}
+
+button#btnLinkedin {
+  color: lightgrey;
+  background-color: #0075ad;
+  box-shadow: 0px 3px 0px 0px #7d95a3, inset -1px -3px 10px 1px #0f4e70;
+}
+
+button#btnLinkedin:hover {
+  background-color: #006596;
+}
+
+button#btnLinkedin:active {
+  box-shadow: none;
+}
+
+button#btnC {
+  margin-right: 65px;
+  background-color: #aa1b37;
+  border: 1px solid #d8a4ae;
+  width: 114px;
+  box-shadow: 0px 3px 0px 0px #d8a4ae, inset -1px -3px 10px 1px brown;
+}
+
+button#btnC:hover {
+  background-color: #a30e2c;
+}
+
+button#btnC:active {
+  box-shadow: none;
+}
+
+button#btnUguale {
+  background-color: #ef2f2f;
+  box-shadow: 0px 3px 0px 0px #ef2f2f, inset -1px -3px 10px 1px #ef2f2f;
+}
+
+button#btnUguale:hover {
+  background-color: #fc5555;
+}
+
+button#btnUguale:active {
+  box-shadow: none;
+}
+
+button.sideBtns {
+  border: 1px solid #828282;
+  background-color: #3d3d3d;
+  box-shadow: 0px 3px 0px 0px #636262, inset -1px -3px 10px 1px #515151;
+}
+
+button.sideBtns:hover {
+  background-color: #383838;
+  box-shadow: 0px 3px 0px 0px #636262, inset -1px -3px 10px 1px #414141;
+}
+
+button.sideBtns:active {
+  box-shadow: none;
+}
+
+footer {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  background-color: #ededed;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer p {
+  margin: 9px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  #calcolatrice {
+    margin: 20px auto 50px;
+  }
+}
