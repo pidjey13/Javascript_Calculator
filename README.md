@@ -1,5 +1,5 @@
 # Javascript Calculator
-FreeCodeCamp Projec - build with Bootstrap and jQuery
+FreeCodeCamp Project - built with Bootstrap and jQuery
 
 ## Dependecies
 * Twitter Bootstrap
